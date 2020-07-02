@@ -10,10 +10,10 @@ function reload() {
 		.setAttribute("src", imgDice2);
 
 	if (randomNumber1 > randomNumber2) {
-		document.querySelector("h1").innerHTML = "Joueur 1 win";
+		document.querySelector("h1").innerHTML = "🎉Joueur 1 win";
 	} else if (randomNumber1 < randomNumber2) {
-		document.querySelector("h1").innerHTML = "Joueur 2 win";
+		document.querySelector("h1").innerHTML = "🎆Joueur 2 win";
 	} else if (randomNumber1 === randomNumber2) {
-		document.querySelector("h1").innerHTML = "Égalité";
+		document.querySelector("h1").innerHTML = "😒Égalité";
 	}
 }
